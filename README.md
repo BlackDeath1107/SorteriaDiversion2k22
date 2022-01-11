@@ -58,7 +58,7 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 Contributions makes this a great place to learn, inspire, and create. Any contributions you make are **warmly welcomed and appreciated**.
 Don't forget to give the project a star! Thanks a lot for checking our project out!
 How to comtribute to our project?
-1. Create your Feature Branch
-2. Commit your Changes
-3. Push to the Branch 
-4. Open a Pull Request
+1. Create your Feature Branch.
+2. Commit your Changes.
+3. Push to the Branch.
+4. Open a Pull Request.
