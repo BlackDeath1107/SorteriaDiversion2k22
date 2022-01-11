@@ -5,6 +5,22 @@ This assures easy and quick access to the documents and prescriptions which othe
 The documents being soft copies ensures that it is accessible from anywhere.
 <br/>
 
+### Features
+
+- Easy and secure storage of medical documents.
+- Versatility and quick access of the stored documents regardless of location of device.
+- Security of important medical documents which tend to get misplaced.Due to these documents being soft copies it cannot be misplaced.
+- Cross Platform.
+- No hassle of carryong multiple documents to hospitals and websites.
+
+### Roadmap
+
+- Build a basic website for storage of all medical documents.
+- Design the first page of the website as an introduction or welcome page.
+- Make a portal for entry and editing.
+- Improvement on features.
+-  Start working on Cross Platform features.
+
 ### Technologies used 💻
 <a href="https://github.com/search?q=user%3ADenverCoder1+is%3Arepo+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></a>
  <a href="https://github.com/search?q=user%3ADenverCoder1+is%3Arepo+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=red"></a>
