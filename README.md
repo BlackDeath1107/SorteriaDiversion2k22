@@ -41,8 +41,8 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 
 ## Screenshots 📷
-![What is this](ssgit.jpg)
 
+![ssgit](https://user-images.githubusercontent.com/96746497/148968238-3b143169-2dd3-427b-a7db-4c931038ffe2.jpg)
 
 
 
