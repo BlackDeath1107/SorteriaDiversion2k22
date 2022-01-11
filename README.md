@@ -31,9 +31,14 @@ The documents being soft copies ensures that it is accessible from anywhere.
 
 - Bootstrap
 - JQuery
-
+- Truffle
+### Other platforms 
+- Node JS
+- Ganache
+- metamask browser extension
  <br/>
-### DESCRIPTION
+
+### Description
 This a the first website that our team has made.We are from first year and in future we shall be making some more changes as well as adding the backend part of it.
 
 ### Some screenshots 
@@ -51,7 +56,10 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 - Html
 - CSS
 - Javascript
-
+### Languages used for back end
+These are for backend which will be updated soon.
+-Solidity-OOP language for creating smart contract.
+-Ethereum
 ### Contributions
 
 
