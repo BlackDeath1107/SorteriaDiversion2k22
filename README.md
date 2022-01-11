@@ -51,7 +51,7 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 - Html
 - CSS
 - Javascript
-- 
+
 ### Contributions
 
 
