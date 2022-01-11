@@ -1,4 +1,4 @@
-                                                ####SOTERIA
+                                                #### SOTERIA
 ## What is the objective of SOTERIA ? 
 Soteria is a database website which stores and secures medical information and documents of customers and patients. 
 This assures easy and quick access to the documents and prescriptions which otherwise are misplaced very easily.
