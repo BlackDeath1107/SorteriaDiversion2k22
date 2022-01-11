@@ -60,8 +60,8 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 These are for backend which will be updated soon
 
 -Solidity-OOP language for creating smart contract
-
--Ethereum
+- Python
+- 
 ### Contributions
 
 
