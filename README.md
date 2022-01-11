@@ -46,9 +46,10 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 
 ## Screenshots 📷
-
+Welcome Page
 ![ssgit](https://user-images.githubusercontent.com/96746497/148968238-3b143169-2dd3-427b-a7db-4c931038ffe2.jpg)
-
+Sign in page
+![IMG-20220112-WA0025](https://user-images.githubusercontent.com/96746497/149009286-f4bc0014-a9a7-4378-a474-bf5a9bd0591d.jpg)
 
 
 ### Languages used for the front end
