@@ -65,6 +65,11 @@ Welcome Page
 ![ssgit](https://user-images.githubusercontent.com/96746497/148968238-3b143169-2dd3-427b-a7db-4c931038ffe2.jpg)
 Sign in page
 ![IMG-20220112-WA0025](https://user-images.githubusercontent.com/96746497/149009286-f4bc0014-a9a7-4378-a474-bf5a9bd0591d.jpg)
+Sign up page
+![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
+![Screenshot (29)_2](https://user-images.githubusercontent.com/96746497/149139966-c1e011d0-3025-465d-85ca-3a57b52c7e30.png)
+![Screenshot (31)_2](https://user-images.githubusercontent.com/96746497/149140040-d4f06ba5-604f-4b46-a67d-6819f53a44e6.png)
+
 
 
 ### Languages used for the front end
