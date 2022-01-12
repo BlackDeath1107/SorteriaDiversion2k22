@@ -63,7 +63,7 @@ These are for backend which will be updated soon
 -Solidity-OOP language for creating smart contract
 - Python
 
-### Contributions
+### Contributions 
 
 
 Contributions makes this a great place to learn, inspire, and create. Any contributions you make are **warmly welcomed and appreciated**.
