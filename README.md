@@ -88,7 +88,7 @@ These are for backend which will be updated soon
 
 Contributions makes this a great place to learn, inspire, and create. Any contributions you make are **warmly welcomed and appreciated**.
 Don't forget to give the project a star! Thanks a lot for checking our project out!
-How to comtribute to our project?
+How to contribute to our project?
 1. Create your Feature Branch.
 2. Commit your Changes.
 3. Push to the Branch.
