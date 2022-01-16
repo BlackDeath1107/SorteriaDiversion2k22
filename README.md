@@ -1,6 +1,6 @@
 #   <h1 align="center">SORTERIA</h1>
 
-### What is the objective of SOTERIA ? 
+### What is the objective of SORTERIA ? 
 Sorteria is a database based website which stores and secures medical information and documents of customers and patients. 
 This assures easy and quick access to the documents and prescriptions which otherwise are misplaced very easily.
 The documents being soft copies ensures that it is accessible from anywhere.
@@ -68,7 +68,8 @@ Choice page
 ![WhatsApp Image 2022-01-17 at 1 19 05 AM](https://user-images.githubusercontent.com/96746497/149675753-45448a5f-2f96-4033-a0da-9b239553b79e.jpeg)
 
 Sign in page
-![IMG-20220112-WA0025](https://user-images.githubusercontent.com/96746497/149009286-f4bc0014-a9a7-4378-a474-bf5a9bd0591d.jpg)
+![IMG_20220117_013556](https://user-images.githubusercontent.com/96746497/149677110-3b6b316d-f7e1-446d-87a3-1224ef127fed.jpg)
+
 Sign up page
 ![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
 ![Screenshot (29)_2](https://user-images.githubusercontent.com/96746497/149139966-c1e011d0-3025-465d-85ca-3a57b52c7e30.png)
