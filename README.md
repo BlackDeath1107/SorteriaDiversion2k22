@@ -1,7 +1,7 @@
-#   <h1 align="center">SOTERIA</h1>
+#   <h1 align="center">SORTERIA</h1>
 
 ### What is the objective of SOTERIA ? 
-Soteria is a database based website which stores and secures medical information and documents of customers and patients. 
+Sorteria is a database based website which stores and secures medical information and documents of customers and patients. 
 This assures easy and quick access to the documents and prescriptions which otherwise are misplaced very easily.
 The documents being soft copies ensures that it is accessible from anywhere.
 <br/>
