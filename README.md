@@ -62,7 +62,7 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 ## Screenshots 📷
 Welcome Page
-![ssgit](https://user-images.githubusercontent.com/96746497/148968238-3b143169-2dd3-427b-a7db-4c931038ffe2.jpg)
+![welcomepage](https://user-images.githubusercontent.com/96746497/150773656-ebfcaa9a-a5f0-4a71-80e7-939c2b4dda37.jpeg)
 
 Choice page
 ![WhatsApp Image 2022-01-17 at 1 19 05 AM](https://user-images.githubusercontent.com/96746497/149675753-45448a5f-2f96-4033-a0da-9b239553b79e.jpeg)
