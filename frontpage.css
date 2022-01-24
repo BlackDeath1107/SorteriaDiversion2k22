@@ -1,0 +1,45 @@
+body{
+    
+ background-image: url("/css.diversion/images/front.jpeg");
+ 
+}
+.myButton {
+ -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+ -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+ box-shadow:inset 0px 1px 0px 0px #f29c93;
+ background-color:#fe1a00;
+ -webkit-border-radius:42px;
+ -moz-border-radius:42px;
+ border-radius:42px;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Verdana;
+ font-size:24px;
+ font-weight:bold;
+ padding:16px 33px;
+ text-decoration:none;
+ text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+ background-color:#ce0100;
+}
+.myButton:active {
+ 
+ top:1px;
+}
+.middle-one{
+    
+}
+.top-one{
+   position: absolute;
+
+}
+ 
+.heading{
+ margin-top:50px;
+ margin-left: 20px;
+}
+.healthcare{
+   object-fit:cover;
+}
