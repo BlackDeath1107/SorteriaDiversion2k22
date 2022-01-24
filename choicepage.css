@@ -1,0 +1,81 @@
+CSS CODE
+body{
+ background-color:#051912;
+}
+.imageone{
+ position: absolute;
+ margin-left: 10px;
+
+
+}
+.secondone{
+ margin-left:820px;
+
+
+}
+.heading{
+ color: #3dcab5;
+ font-size: 40px ;
+
+}
+.middleone{
+ hyphens: manual;
+}
+.tagline{
+ color: #3EB489;
+ margin-bottom: 50px;
+
+
+}
+.myButton {
+ box-shadow: 0px 2px 30px -3px #008568;
+ background-color:#3eb489;
+ border-radius:3px;
+ display:inline-block;
+ cursor:pointer;
+ color:#0d261c;
+ font-family:Georgia;
+ font-size:19px;
+ font-weight:bold;
+ padding:16px 64px;
+ text-decoration:none;
+ text-shadow:0px 1px 1px #000000;
+}
+.myButton:hover {
+ background-color:#3dcab5;
+}
+.myButton:active {
+ position:relative;
+ top:1px;
+}
+.myButton {
+ box-shadow: 0px 2px 30px -3px #008568;
+ background-color:#3eb489;
+ border-radius:3px;
+ display:inline-block;
+ cursor:pointer;
+ color:#0d261c;
+ font-family:Georgia;
+ font-size:19px;
+ font-weight:bold;
+ padding:16px 64px;
+ text-decoration:none;
+ text-shadow:0px 1px 1px #000000;
+}
+.myButton:hover {
+ background-color:#3dcab5;
+}
+.myButton:active {
+ position:relative;
+ top:1px;
+}
+.buttons{
+ display: inline;
+
+
+ 
+}
+.signin{
+
+}
+ 
