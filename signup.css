@@ -1,10 +1,7 @@
 CSS CODE
 body{
  background-color:#009B77;
-
-  boarder-style:groove;
-  boarder-width:110px;
-  boarder-colour:#009B77;  
+ 
 }
 .form-floating{
  width: 500px;
