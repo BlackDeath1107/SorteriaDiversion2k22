@@ -1,8 +1,10 @@
 CSS CODE
 body{
  background-color:#009B77;
- 
-}
+ border-style:groove;
+ border-width:100px;
+ border-color:#009b77;
+ }
 .form-floating{
  width: 500px;
  margin: 10px;
