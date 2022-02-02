@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+/* -------------for navbar--------------------------- */
+.navbar{
+   width:100vw;
+   height:15vh;
+   /* background-color: black; */
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   /* background: url(img/DNA-Change-Concept.gif) ; */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.navbar .col-right ul{
+   display: flex;
+   flex-direction: row;
+}
+.navbar .col-right ul li a{
+   margin-top: 0;
+   margin-left:2vw;
+   margin-right: 4vw;
+   text-decoration: none;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+.logo{
+   height:10vh;
+   margin-left:2vw;
+   border-radius: 30px;
+}
+/* for container */
+.cover-page{
+   border:2px solid black;
+   height: 100vh;
+   /* width:100vw; */
+   background-repeat: repeat;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   background: url(img/DNA-Change-Concept.gif);
+   background-size: cover;
+   opacity:1;
+   /* justify-content: space-evenly; */
+   
+}
+
+.heading{
+   max-width: 40vw;
+   /* border:2px solid red; */
+   /* height:40vh; */
+   font-size: 2.7em;
+   position: relative;
+   left:2vw;
+   margin-top: 10vh;
+   /* backdrop-filter: blur(10px); */
+   display: flex;
+   flex-direction: column;
+}
+.heading-1{
+   font-size: 2em;
+   font-family: 'Roboto', sans-serif;
+   color:white;
+}
+.heading-2{
+   font-size: 0.8em;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 4vh;
+   color:white;
+
+}
+/* .heading::first-line{
+   font-size: 1.8em;
+} */
+.heading-btn{
+   position: relative;
+   left:2vw;
+}
+.btn{
+   border-radius: 1em;;
+   width:20vw;
+   margin-top: 8vh;
+   padding:0.3em;
+}
+.btn a{
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   font-size: 2em;
+   color: black;
+}
