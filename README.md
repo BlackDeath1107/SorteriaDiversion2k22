@@ -62,7 +62,8 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 ## Screenshots 📷
 Welcome Page
-![welcomepage](https://user-images.githubusercontent.com/96746497/150773656-ebfcaa9a-a5f0-4a71-80e7-939c2b4dda37.jpeg)
+![IMG-20220131-WA0186 (1)](https://user-images.githubusercontent.com/96746497/152371278-c7472278-e934-4685-882e-a25e8d299ca8.jpg)
+
 
 ![sorteria_fp](https://user-images.githubusercontent.com/96746497/151831509-376d6702-8a23-4f0a-a06e-74528e626ed6.png)
 
