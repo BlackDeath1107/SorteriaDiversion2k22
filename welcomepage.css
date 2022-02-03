@@ -34,7 +34,7 @@ p.heading-2{
    overflow: hidden;
    display: flex;
    flex-direction: column;
-   background: url("DNA-Change-Concept.gif");
+   background: url("media-files/DNA-Change-Concept.gif");
    background-size: cover;
    opacity:1;
 }
