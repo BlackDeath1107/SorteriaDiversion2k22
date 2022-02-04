@@ -22,8 +22,9 @@ p.heading-1{
 }
 
 p.heading-2{
+  position: relative;
   font-style: italic;
-  font-size: 55px;
+  font-size: 50px;
 }
 
 /* for container */
@@ -37,6 +38,10 @@ p.heading-2{
    background: url("media-files/DNA-Change-Concept.gif");
    background-size: cover;
    opacity:1;
+}
+
+.cover-page a{
+  background-color: #3DCAB5;
 }
 
 .heading{
@@ -60,23 +65,22 @@ p.heading-2{
    color:white;
 
 }
-.heading-btn{
-   position: relative;
-   left:2vw;
+
+.myButton {
+  margin-left: 20px;
+  text-align: center;
+ background-color: #3DCAB5;
+ border-radius:42px;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Verdana;
+ font-size:24px;
+ font-weight:bold;
+ padding:16px 60px;
+ width: 200px;
+ text-decoration:none;
 }
-.btn{
-   border-radius: 1em;;
-   width:20vw;
-   margin-top: 8vh;
-   padding:0.3em;
-}
-.btn a{
-   font-family: 'Roboto', sans-serif;
-   font-size: 30px;
-   font-style: bold;
-   color: black;
-   text-decoration: none;
-}
-button.btn:hover{
-  background-color: #B3FCEC;
+.myButton:hover {
+ background-color: #009B77;
 }
