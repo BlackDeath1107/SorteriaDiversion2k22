@@ -10,7 +10,7 @@ The documents being soft copies ensures that it is accessible from anywhere.
 
 - Easy and secure storage of medical documents.
 - Versatility and quick access of the stored documents regardless of location of device.
-- Security of important medical documents which tend to get misplaced.Due to these documents being soft copies it cannot be misplaced.
+- Security of important medical documents which tend to get misplaced. Due to these documents being soft copies it cannot be misplaced.
 - Cross Platform.
 - No hassle of carrying multiple documents to hospitals and websites.
 
