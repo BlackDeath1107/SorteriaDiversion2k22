@@ -124,8 +124,20 @@ nav img{
   }
 }
 
+@media (max-width: 768px)
+{
+  body{
+    background-image: none;
+    background-color: rgba(61, 202, 181,0.4);
+  }
+  a.myButton{
+    margin-bottom: 10px;
+    width: 500px;
+  }
+}
+
 .myButton {
-  margin-left: 20px;
+ margin-left: 20px;
  background-color:var(--light);
  border-radius:42px;
  display:inline-block;
@@ -139,13 +151,14 @@ nav img{
 }
 .myButton:hover {
  background-color: var(--primary);
+ font-size: 26px;
 }
 
 main{
   text-align: center;
   width: 90vw;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 70px 20px;
 }
 
 article{
