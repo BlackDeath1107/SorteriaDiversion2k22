@@ -130,6 +130,10 @@ nav img{
     background-image: none;
     background-color: rgba(61, 202, 181,0.4);
   }
+  a.myButton{
+    margin-bottom: 10px;
+    width: 500px;
+  }
 }
 
 .myButton {
@@ -141,13 +145,13 @@ nav img{
  color:#ffffff;
  font-family:Verdana;
  font-size:24px;
- font-weight:500;
- font-style:italic;
+ font-weight:bold;
  padding:16px 33px;
  text-decoration:none;
 }
 .myButton:hover {
  background-color: var(--primary);
+ font-size: 26px;
 }
 
 main{
