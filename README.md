@@ -62,17 +62,16 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 ## Screenshots 📷
 Welcome Page
-![IMG-20220131-WA0186 (1)](https://user-images.githubusercontent.com/96746497/152371278-c7472278-e934-4685-882e-a25e8d299ca8.jpg)
+![welcomepage_html](https://user-images.githubusercontent.com/94730769/152667955-c5a88f8b-89c7-4d31-b59b-5de41285e3a8.png)
 
-
-![sorteria_fp](https://user-images.githubusercontent.com/96746497/151831509-376d6702-8a23-4f0a-a06e-74528e626ed6.png)
-
+Index Page
+![frontpage_html](https://user-images.githubusercontent.com/94730769/152667967-4eadbeac-88cf-41e5-a557-98d05410b276.png)
 
 Choice page
-![WhatsApp Image 2022-01-17 at 1 19 05 AM](https://user-images.githubusercontent.com/96746497/149675753-45448a5f-2f96-4033-a0da-9b239553b79e.jpeg)
+![choicepage_html](https://user-images.githubusercontent.com/94730769/152668156-9fd1e245-d95a-4388-bc0a-5c299c7697b5.jpeg)
 
 Sign in page
-![IMG_20220117_013556](https://user-images.githubusercontent.com/96746497/149677110-3b6b316d-f7e1-446d-87a3-1224ef127fed.jpg)
+![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
 
 Sign up page
 ![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
