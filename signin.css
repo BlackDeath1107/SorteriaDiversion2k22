@@ -102,7 +102,10 @@ section .contentBx .formBx .inputBx input[type="submit"]{
   cursor: pointer;
 }
 section .contentBx .formBx .inputBx input[type="submit"]:hover{
-  background-color: var(--primary);
+  background-color: black;
+  color: var(--primary);
+  font-weight: 900;
+  letter-spacing: 0px;
 }
 section .contentBx .formBx .remember{
   margin-bottom: 10px;
@@ -138,6 +141,8 @@ section .contentBx .formBx h3{
     width: 100%;
     padding: 40px;
     background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    box-shadow: -12px 12px 12px grey;
     margin: 50px;
   }
   section .contentBx .formBx h3{

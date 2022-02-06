@@ -61,18 +61,27 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 
 ## Screenshots 📷
-Welcome Page
-![IMG-20220131-WA0186 (1)](https://user-images.githubusercontent.com/96746497/152371278-c7472278-e934-4685-882e-a25e8d299ca8.jpg)
+
+_**Welcome Page**_
+
+![welcomepage_html](https://user-images.githubusercontent.com/94730769/152667955-c5a88f8b-89c7-4d31-b59b-5de41285e3a8.png)
+
+_**Index Page**_
+
+![frontpage_html](https://user-images.githubusercontent.com/94730769/152671951-bfdaf47a-e2fc-4917-ae85-db17e4ebb5a1.png)
+
+**_Choice page_**
+
+![choicepage_html](https://user-images.githubusercontent.com/94730769/152668156-9fd1e245-d95a-4388-bc0a-5c299c7697b5.jpeg)
+
+**_Sign in page_**
+
+![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
+
+_**Mobile View**_
+<p align="justified"><img src="https://user-images.githubusercontent.com/94730769/152671973-e619b63c-35b7-440b-8d25-43fcd40e78d6.PNG" height="650" width="500">&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/94730769/152672396-1118dfd6-26d0-4e84-b286-3308adc4396b.PNG" width="500" height="650"></p>
 
 
-![sorteria_fp](https://user-images.githubusercontent.com/96746497/151831509-376d6702-8a23-4f0a-a06e-74528e626ed6.png)
-
-
-Choice page
-![WhatsApp Image 2022-01-17 at 1 19 05 AM](https://user-images.githubusercontent.com/96746497/149675753-45448a5f-2f96-4033-a0da-9b239553b79e.jpeg)
-
-Sign in page
-![IMG_20220117_013556](https://user-images.githubusercontent.com/96746497/149677110-3b6b316d-f7e1-446d-87a3-1224ef127fed.jpg)
 
 Sign up page
 ![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
@@ -102,6 +111,3 @@ How to contribute to our project?
 2. Commit your Changes.
 3. Push to the Branch.
 4. Open a Pull Request.
-
-<img align= "left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=BLACKDEATH1107&show_icons-true&hide_border-true" >
-                                                       
