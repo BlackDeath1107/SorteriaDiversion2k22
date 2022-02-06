@@ -61,17 +61,28 @@ N.B.:These images are just the primary prototypes.It will be changed and updated
 
 
 ## Screenshots 📷
-Welcome Page
+
+_**Welcome Page**_
+
 ![welcomepage_html](https://user-images.githubusercontent.com/94730769/152667955-c5a88f8b-89c7-4d31-b59b-5de41285e3a8.png)
 
-Index Page
-![frontpage_html](https://user-images.githubusercontent.com/94730769/152667967-4eadbeac-88cf-41e5-a557-98d05410b276.png)
+_**Index Page**_
 
-Choice page
+![frontpage_html](https://user-images.githubusercontent.com/94730769/152671951-bfdaf47a-e2fc-4917-ae85-db17e4ebb5a1.png)
+
+**_Choice page_**
+
 ![choicepage_html](https://user-images.githubusercontent.com/94730769/152668156-9fd1e245-d95a-4388-bc0a-5c299c7697b5.jpeg)
 
-Sign in page
+**_Sign in page_**
+
 ![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
+
+_**Mobile View**_
+
+<p align="center"><img src="https://user-images.githubusercontent.com/94730769/152671973-e619b63c-35b7-440b-8d25-43fcd40e78d6.PNG" height="600" width="450">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://user-images.githubusercontent.com/94730769/152672396-1118dfd6-26d0-4e84-b286-3308adc4396b.PNG" width="450" height="600"></p>
+
+
 
 Sign up page
 ![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
@@ -101,6 +112,3 @@ How to contribute to our project?
 2. Commit your Changes.
 3. Push to the Branch.
 4. Open a Pull Request.
-
-<img align= "left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=BLACKDEATH1107&show_icons-true&hide_border-true" >
-                                                       
