@@ -112,6 +112,3 @@ How to contribute to our project?
 2. Commit your Changes.
 3. Push to the Branch.
 4. Open a Pull Request.
-
-<img align= "left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=BLACKDEATH1107&show_icons-true&hide_border-true" >
-                                                       
