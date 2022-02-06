@@ -79,8 +79,7 @@ _**Index Page**_
 ![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
 
 _**Mobile View**_
-
-<p align="center"><img src="https://user-images.githubusercontent.com/94730769/152671973-e619b63c-35b7-440b-8d25-43fcd40e78d6.PNG" height="600" width="450">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://user-images.githubusercontent.com/94730769/152672396-1118dfd6-26d0-4e84-b286-3308adc4396b.PNG" width="450" height="600"></p>
+<p align="justified"><img src="https://user-images.githubusercontent.com/94730769/152671973-e619b63c-35b7-440b-8d25-43fcd40e78d6.PNG" height="650" width="500">&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/94730769/152672396-1118dfd6-26d0-4e84-b286-3308adc4396b.PNG" width="500" height="650"></p>
 
 
 
