@@ -124,8 +124,16 @@ nav img{
   }
 }
 
+@media (max-width: 768px)
+{
+  body{
+    background-image: none;
+    background-color: rgba(61, 202, 181,0.4);
+  }
+}
+
 .myButton {
-  margin-left: 20px;
+ margin-left: 20px;
  background-color:var(--light);
  border-radius:42px;
  display:inline-block;
@@ -133,7 +141,8 @@ nav img{
  color:#ffffff;
  font-family:Verdana;
  font-size:24px;
- font-weight:bold;
+ font-weight:500;
+ font-style:italic;
  padding:16px 33px;
  text-decoration:none;
 }
@@ -145,7 +154,7 @@ main{
   text-align: center;
   width: 90vw;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 70px 20px;
 }
 
 article{
