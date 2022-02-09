@@ -85,9 +85,9 @@ _**Mobile View**_
 
 
 Sign up page
-![Screenshot (28)_2](https://user-images.githubusercontent.com/96746497/149139901-681a1ea3-dcba-4c05-9fdc-56b032ea78ad.png)
-![Screenshot (29)_2](https://user-images.githubusercontent.com/96746497/149139966-c1e011d0-3025-465d-85ca-3a57b52c7e30.png)
-![Screenshot (31)_2](https://user-images.githubusercontent.com/96746497/149140040-d4f06ba5-604f-4b46-a67d-6819f53a44e6.png)
+![Screenshot (255)](https://user-images.githubusercontent.com/96746497/153259711-38af0b3e-2269-4e0e-8cb1-3b9f836fd035.png)
+![Screenshot (257)](https://user-images.githubusercontent.com/96746497/153259808-7e48567f-3dd9-4e31-a829-66ca7832a98b.png)
+![Screenshot (256)](https://user-images.githubusercontent.com/96746497/153259877-e3c71665-b08c-475f-932f-af0835cd7542.png)
 
 
 
