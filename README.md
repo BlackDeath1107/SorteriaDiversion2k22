@@ -49,8 +49,9 @@ The documents being soft copies ensures that it is accessible from anywhere.
 - Truffle
 ### Other platforms 
 - Node JS
+- Truffle
 - Ganache
-- metamask browser extension
+- Metamask browser extension
  <br/>
 
 ### Description
