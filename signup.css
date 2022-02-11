@@ -1,72 +1,241 @@
-CSS CODE
-body{
- background-color:#009B77;
- border-style:groove;
- border-width:100px;
- border-color:#009b77;
- }
-.form-floating{
- width: 500px;
- margin: 10px;
+* {
+  margin: 0;
+  padding: 0;
 }
-.signinbody{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- margin: 20px;
- }
+body {
+  background-image: url(/signup.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.heading {
+  width: 800px;
+  background-color: rgba(253, 231, 231, 0.83);
 
- .headline{
- text-align: center;
- margin-top: 20px;
- margin-bottom: 20px;
- font-family: century school book bold;
- color: #730C0B;
- }
- .parentone{
- text-align: center;
- font-family:Arial, Helvetica, sans-serif;
- }
- .middleone{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- margin: 20px;
- }
+  margin: auto;
+  color: black;
 
- .myButton {
- -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
- -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
- box-shadow:inset 0px 1px 0px 0px #ffffff;
- background-color:#ffffff;
- -webkit-border-radius:6px;
- -moz-border-radius:6px;
- border-radius:6px;
- border:1px solid #dcdcdc;
- display:inline-block;
- cursor:pointer;
- color:#666666;
- font-family:Verdana;
- font-size:19px;
- font-weight:bold;
- padding:6px 33px;
- text-decoration:none;
- text-shadow:0px 1px 0px #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-container {
+  width: 800px;
+  background-color: rgba(253, 231, 231, 0.83);
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+}
+form {
+  padding: 20px;
+}
+#name {
+  width: 100%;
+  height: 100px;
+}
+.name {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 125px;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.input-name {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+
+.dob {
+  position: relative;
+  left: 200px;
+  top: -36px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 17px;
+  color: #555;
+  border: 2px solid black;
+}
+.age {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.option {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 530px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.option-prefix {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 530px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.code {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 95px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.number {
+  position: relative;
+  left: 160px;
+  top: -35px;
+  line-height: 38px;
+  width: 300px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.area-code {
+  position: relative;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 210px;
+  top: -6px;
+}
+.phone-number {
+  position: relative;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -185px;
+  top: -6px;
+}
+.option-prefix {
+  position: relative;
+  line-height: 40px;
+  border-radius: 7px;
+  padding: 0 22px;
+  overflow: hidden;
+  border: 2px solid black;
+  left: 137px;
+  top: -34px;
+  height: 40px;
+  width: 150px;
+}
+
+.email {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.password {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.address {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+.pin {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 485px;
+  border-radius: 7px;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #555;
+  border: 2px solid black;
+}
+
+.myButton {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 14px 76px;
+  text-decoration: none;
 }
 .myButton:hover {
- background-color:#f6f6f6;
+  background-color: #e0e7da;
+  text-shadow: 0px 2px 7px grey;
 }
 .myButton:active {
- position:relative;
- top:1px;
+  position: relative;
+  top: 1px;
 }
 
-.myButton{
- text-align: center;
- display: flex ;
- display: grid;
- max-width: 200px;
- margin: 30px auto ;
+.myButton {
+  text-align: center;
+  margin-left: 280px;
 }
