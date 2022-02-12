@@ -98,7 +98,24 @@ Sign up page
 These are for backend which will be updated soon
 
 -Solidity-OOP language for creating smart contract
-- Python
+- Firebase-for making the databases which will be non SQL
+
+### The future scope of our project
+
+The aim of our project is to prepare a secured database for patients(clients).This will not only benefit patients but also ease doctors to have a proper organised ailment history of the patients.This  feature will broaden the scalability of our project in the following ways:-
+
+In hospitals:-Hospitals can keep this software   to keep a track of all the health ailments of every patient . As our project is built using blockchain technology ,so the data of each patient will remain secured and untampered.This will enable us to manage the records of all patients seamlessly and without the headache of losing any data, that too in an organised way.
+
+By pharmaceutical shops:-Pharmaceutical shops in any location of the world can get access to the health information of every patient and can give them proper medicine in case of emergencies.Patients do not need to carry the prescription all the time to the shop for getting medicine. In case of sudden emergencies we patients can easily log in to their sorteria account to show prescription and doctor's assent.
+
+By government:-Government can safely keep a decentralised app for the easy access of health related information of each citizen of the country .If government takes up Sorteria then there will be better reach of this application to all common people of the country and ensure a safe private record of each patient.
+
+Post Covid Situation:- With the rapid development of technologies used in the healthcare sector and changes in healthcare operations post-COVID-19, it’s more important than ever for databases in healthcare to be organized, well-maintained, and easy to use. 
+
+A doctor no matter how brilliant or talented, needs the help of technology for the betterment of his work, for the betterment of management of his patients at present as well as in future. Today is the era of technology. If time advances one step, technology advances two step, so this type of technology will be the cardinal tool for doctors and patients in future.
+
+
+
 
 ### Contributions 
 
