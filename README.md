@@ -1,9 +1,7 @@
 #   <h1 align="center">SORTERIA</h1>
 
 ### What is the objective of SORTERIA ? 
-Sorteria is a database based website which stores and secures medical information and documents of customers and patients. 
-This assures easy and quick access to the documents and prescriptions which otherwise are misplaced very easily.
-The documents being soft copies ensures that it is accessible from anywhere.
+Sorteria is a database based website which stores and secures medical information and documents of customers and patients.It is an interactive platform which ensures seamless easy and hassle free storage of medical documents and guarantees security for the same.This reduces the chances of errors and helps in managing  documents  and prescriptions very easily and quickly. The primary objective of our website is to guarantee security and thus this cloud and blockchain  based database platform is aspired using blockchain technology.
 <br/>
 
 ### Features
@@ -112,3 +110,13 @@ How to contribute to our project?
 2. Commit your Changes.
 3. Push to the Branch.
 4. Open a Pull Request.
+
+### Brief rundown of our repository
+Our github repository is in a state of daily and continuous change. We are updating the codes and the files as and when required. 
+1.The basic and primary readme file mentions a few primary details of our project including a small preview of how the website will look along with the tech stacks and languages used. It also includes a tiny stat box showing the commits, pull requests, issues and other details.
+2.The media-files folder is a folder meant for storing every picture animation or other media files.This includes the custom images and animations that have been used for the frontend part of the project.
+3.The welcomepage.html and the welcomepage.css has the codes for the page that will be visible to the users on opening the website.
+4.The frontpage.html and frontpage.css files contain the respective html and css codes for the page which will links to sign in as well a drop down menu which can be used to find the contact all nearby doctors and medicine centres in an area.
+5.In a similar way the choicepage.html and choicepage.css files contain the code for the page which will give the user a choice whether to sign in if he/she is already a user or to sign up if it is their first time visiting the website.
+6.A number of files are to be added along with a major portion of the backend part.
+
