@@ -115,19 +115,6 @@ Post Covid Situation:- With the rapid development of technologies used in the he
 A doctor no matter how brilliant or talented, needs the help of technology for the betterment of his work, for the betterment of management of his patients at present as well as in future. Today is the era of technology. If time advances one step, technology advances two step, so this type of technology will be the cardinal tool for doctors and patients in future.
 
 
-
-
-### Contributions 
-
-
-Contributions makes this a great place to learn, inspire, and create. Any contributions you make are **warmly welcomed and appreciated**.
-Don't forget to give the project a star! Thanks a lot for checking our project out!
-How to contribute to our project?
-1. Create your Feature Branch.
-2. Commit your Changes.
-3. Push to the Branch.
-4. Open a Pull Request.
-
 ### Brief rundown of our repository
 Our github repository is in a state of daily and continuous change. We are updating the codes and the files as and when required. 
 1.The basic and primary readme file mentions a few primary details of our project including a small preview of how the website will look along with the tech stacks and languages used. It also includes a tiny stat box showing the commits, pull requests, issues and other details.
@@ -142,3 +129,13 @@ Our github repository is in a state of daily and continuous change. We are updat
 
 6.A number of files are to be added along with a major portion of the backend part.
 
+### Contributions 
+
+
+Contributions makes this a great place to learn, inspire, and create. Any contributions you make are **warmly welcomed and appreciated**.
+Don't forget to give the project a star! Thanks a lot for checking our project out!
+How to contribute to our project?
+1. Create your Feature Branch.
+2. Commit your Changes.
+3. Push to the Branch.
+4. Open a Pull Request.
