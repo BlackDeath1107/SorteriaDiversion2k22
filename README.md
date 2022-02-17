@@ -68,7 +68,7 @@ _**Index Page**_
 
 _**Home Page**_
 
-![frontpage](https://user-images.githubusercontent.com/94730769/154533707-6f7597a8-0f4b-4e0d-a29b-c175c3567d84.PNG)
+![frontpage](https://user-images.githubusercontent.com/94730769/154535265-8544abe0-9a22-4167-a57f-13ff5142130f.PNG)
 
 **_Choice page_**
 
