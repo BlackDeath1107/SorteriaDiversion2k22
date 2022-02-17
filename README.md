@@ -57,18 +57,18 @@ The documents being soft copies ensures that it is accessible from anywhere.
 This is the first website that our team has made.We are from first year and in future we shall be making some more changes as well as adding the backend part of it.
 
 ### Some screenshots 
-N.B.:These images are just the primary prototypes.It will be changed and updated soon
+N.B : These images are just the primary prototypes.It will be changed and updated soon
 
 
 ## Screenshots 📷
 
-_**Welcome Page**_
-
-![welcomepage_html](https://user-images.githubusercontent.com/94730769/152667955-c5a88f8b-89c7-4d31-b59b-5de41285e3a8.png)
-
 _**Index Page**_
 
-![frontpage_html](https://user-images.githubusercontent.com/94730769/152671951-bfdaf47a-e2fc-4917-ae85-db17e4ebb5a1.png)
+![index](https://user-images.githubusercontent.com/94730769/154533822-d0038135-15c6-48ba-91f9-475a0088d1b1.PNG)
+
+_**Home Page**_
+
+![frontpage](https://user-images.githubusercontent.com/94730769/154535265-8544abe0-9a22-4167-a57f-13ff5142130f.PNG)
 
 **_Choice page_**
 
