@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 :root{
-  --primary: #009B77;
-  --light: #3DCAB5;
-  --dark: #40826d;
   --alt1 : #FFB8E3;
-  --alt3: #F20093;
-  --alt2: #87CEEB;
+  --alt2: #961656;
+  --alt3: #3E0622;
 }
 *{
   margin: 0;
@@ -12,7 +10,7 @@
 }
 body{
   background-size: 100%;
-  background-image: url("media-files/fp_img/BG_BP.png");
+  background-image: url("media-files/fp_img/BG_BP_new.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +51,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   font-size: 20px;
-  color: #333;
+  color: white;
 }
 nav ul li a.n_btn:hover{
   text-decoration: none;
@@ -83,11 +81,11 @@ nav ul li a.n_btn:hover{
   font-weight: 100px;
   margin-top: 24px;
   margin-bottom: 15px;
-  color: black;
+  color: white;
 }
 .content p{
   font-size: 20px;
-  color: #232d60;
+  color: white;
 }
 .content a{
   font-weight: 900;
@@ -113,12 +111,13 @@ nav ul li a.n_btn:hover{
   display: flex;
 }
 .arrow img{
-  width: 40px;
+  width: 60px;
+  height: 40px;
   margin-right: 25px;
-  transform: rotate(180deg);
 }
 .arrow .login{
   font-size: 30px;
+  color: white;
   margin-right: 5px;
 }
 .arrow a:hover{
