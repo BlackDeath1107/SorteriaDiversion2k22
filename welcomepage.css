@@ -1,10 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
-   margin: 0;
-   padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+  --dark: #3e0622;
+  /* rgb(62,6,34) */
 }
-/* -------------for navbar--------------------------- */
-.navbar{
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcase{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  z-index: 2;
+}
+
+.showcase header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.showcase video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.75;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFB8E3;
+  mix-blend-mode:difference;
+}
+
+.text{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2{
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text h3{
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text p{
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.text a{
+  display: inline-block;
+  font-size: 1em;
+  background: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.text a:hover{
+  letter-spacing: 6px;
+}
+
+@media(max-width: 991px){
+  .showcase,
+  .showcase header{
+    padding: 40px;
+  }
+
+  .text h2{
+    font-size: 3em;
+  }
+  .text h3{
+    font-size: 1em;
+  }
+}
+
+/* .navbar{
    width:100vw;
    height:15vh;
    display: flex;
@@ -28,14 +138,14 @@ p.heading-2{
 }
 
 /* for container */
-.cover-page{
+/* .cover-page{
+
    border:2px solid black;
    height: 100vh;
    background-repeat: repeat;
    overflow: hidden;
    display: flex;
    flex-direction: column;
-   background: url("media-files/DNA-Change-Concept.gif");
    background-size: cover;
    opacity:1;
 }
@@ -83,4 +193,4 @@ p.heading-2{
 }
 .myButton:hover {
  background-color: #009B77;
-}
+} */
