@@ -13,6 +13,10 @@
     <section class="showcase">
       <header>
         <h2 class="logo">SORTERIA</h2>
+        <div class="toggle">
+          <img src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png" id="bars"/>
+          <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-cancel-mintab-for-ios-becris-lineal-becris.png" id="cross"/>
+        </div>
       </header>
       <video src="/media-files/dna.mp4" autoplay muted loop></video>
       <div class="overlay"></div>
@@ -21,8 +25,47 @@
         <h3>Organise your Medical Documents</h3>
         <p>Sorteria will help you organise your medical documents seamlessly.
         Get to access it anytime, anywhere!</p>
-        <a href="frontpage.html">Explore</a>
+        <a href="frontpage.html">Login</a>
+        <a href="frontpage.html">Sign Up</a>
       </div>
     </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+        let bars = document.getElementById('bars');
+        let cross = document.getElementById('cross');
+
+        if(bars.style.display!='none'){
+          bars.style.display='none';
+          cross.style.display='flex';
+        }
+        else{
+          cross.style.display='none';
+          bars.style.display='flex';
+        }
+      })
+    </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- vdnvdn -->
