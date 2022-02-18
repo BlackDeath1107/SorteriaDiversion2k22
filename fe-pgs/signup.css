@@ -3,11 +3,7 @@
   padding: 0;
 }
 body {
- main
-  background-image: url(/signup.jpeg);
-
-  background-image: url("/signup.jpeg");
- main
+  background-image: url("/media-files/signup.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,11 +13,8 @@ body {
 .heading {
   width: 800px;
   background-color: rgba(253, 231, 231, 0.83);
- main
-
   margin: auto;
   color: black;
-
   padding: 10px 0px 10px 0px;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
@@ -238,11 +231,8 @@ form {
 .myButton:active {
   position: relative;
   top: 1px;
-=======
-
   margin: auto;
   color: black;
-
   padding: 10px 0px 10px 0px;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
@@ -250,7 +240,6 @@ form {
 }
 .main-container {
   width: 800px;
- 
   background-color: rgba(253, 231, 231, 0.83);
   margin: auto;
   border-radius: 0px 0px 15px 15px;
@@ -460,7 +449,6 @@ form {
 .myButton:active {
 	position:relative;
 	top:1px;
- main
 }
 
 .myButton {
