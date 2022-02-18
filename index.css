@@ -179,6 +179,15 @@
   }
 }
 
+@media (max-width: 640px){
+  .showcase.active{
+    right: 75%;
+  }
+  .menu{
+    width: 400px;
+  }
+}
+
 /* .navbar{
    width:100vw;
    height:15vh;
