@@ -69,10 +69,6 @@ _**Login Page**_
 
 ![signinpage](https://user-images.githubusercontent.com/94730769/154798761-b92ef9f6-a82d-4cf6-8317-2843c884e6a2.PNG)
 
-**_Sign in page_**
-
-![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
-
 Sign up page
 ![Screenshot (255)](https://user-images.githubusercontent.com/96746497/153259711-38af0b3e-2269-4e0e-8cb1-3b9f836fd035.png)
 ![Screenshot (257)](https://user-images.githubusercontent.com/96746497/153259808-7e48567f-3dd9-4e31-a829-66ca7832a98b.png)
