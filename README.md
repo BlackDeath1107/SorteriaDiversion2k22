@@ -65,22 +65,9 @@ _**Index Page**_
 
 ![index](https://user-images.githubusercontent.com/94730769/154533822-d0038135-15c6-48ba-91f9-475a0088d1b1.PNG)
 
-_**Home Page**_
+_**Login Page**_
 
-![frontpage](https://user-images.githubusercontent.com/94730769/154535265-8544abe0-9a22-4167-a57f-13ff5142130f.PNG)
-
-**_Choice page_**
-
-![choicepage_html](https://user-images.githubusercontent.com/94730769/152668156-9fd1e245-d95a-4388-bc0a-5c299c7697b5.jpeg)
-
-**_Sign in page_**
-
-![signinpage_html](https://user-images.githubusercontent.com/94730769/152667985-32e017d6-7ed8-47c7-9234-49b7542a9f12.PNG)
-
-_**Mobile View**_
-<p align="justified"><img src="https://user-images.githubusercontent.com/94730769/152671973-e619b63c-35b7-440b-8d25-43fcd40e78d6.PNG" height="650" width="500">&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/94730769/152672396-1118dfd6-26d0-4e84-b286-3308adc4396b.PNG" width="500" height="650"></p>
-
-
+![signinpage](https://user-images.githubusercontent.com/94730769/154798761-b92ef9f6-a82d-4cf6-8317-2843c884e6a2.PNG)
 
 Sign up page
 ![Screenshot (255)](https://user-images.githubusercontent.com/96746497/153259711-38af0b3e-2269-4e0e-8cb1-3b9f836fd035.png)
