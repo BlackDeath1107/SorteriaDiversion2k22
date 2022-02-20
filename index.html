@@ -21,12 +21,17 @@
       <video src="/media-files/dna.mp4" autoplay muted loop></video>
       <div class="overlay"></div>
       <div class="text">
-        <h2>NEVER WORRY</h2>
-        <h3>Organise your Medical Documents</h3>
+        <h2 id = "morning">GOOD MORNING !</h2>
+        <h2 id = "afternoon">GOOD AFTERNOON !</h2>
+        <h2 id = "evening">GOOD EVENING !</h2>
+        <br>
+        <hr style="height:20px;width:65%;color:white">
+        <br>
+        <h3>Never worry about organising your Medical Documents</h3>
         <p>Sorteria will help you organise your medical documents seamlessly.
         Get to access it anytime, anywhere!</p>
-        <a href="fe-pgs/signin.html">Login</a>
-        <a href="fe-pgs/signup.html">Sign Up</a>
+        <a href="fe-pgs/signin.html" class="login">Login</a>
+        <a href="fe-pgs/signup.html" class="signup">Sign Up</a>
       </div>
     </section>
 
@@ -41,7 +46,24 @@
     <script>
       const menuToggle = document.querySelector('.toggle')
       const showcase = document.querySelector('.showcase')
-
+      let now = new Date();
+      let t = now.getHours();
+      if(t>=0 && t<12)
+      {
+        morning.style.display='flex';
+        afternoon.style.display='none';
+        evening.style.display='none';
+      }
+      else if(t>=12 && t<18){
+        morning.style.display='none';
+        afternoon.style.display='flex';
+        evening.style.display='none';
+      }
+      else{
+        morning.style.display='none';
+        afternoon.style.display='none';
+        evening.style.display='flex';
+      }
       menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active')
         showcase.classList.toggle('active')
