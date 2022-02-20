@@ -134,8 +134,13 @@
   transition: 0.2s;
 }
 
-.text a:hover{
+.text a.login:hover{
   letter-spacing: 6px;
+}
+
+.text a.signup:hover{
+  word-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 .menu{
