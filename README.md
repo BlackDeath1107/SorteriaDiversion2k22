@@ -63,7 +63,7 @@ N.B : These images are just the primary prototypes.It will be changed and update
 
 _**Index Page**_
 
-![index](https://user-images.githubusercontent.com/94730769/154827923-3e5c8cb9-eaac-4525-9fbb-7e7ba8b98ebe.PNG)
+![index](https://user-images.githubusercontent.com/94730769/155836272-8575d1ed-90f0-400a-8bdb-cdfe0f2f9980.PNG)
 
 _**Login Page**_
 
