@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+  --primary: #3F0723;
+  --light: #961656;
+  --dark: #3E0622;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: linear-gradient(135deg,var(--primary),var(--light));
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  padding: 25px 30px;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom : 0;
+  height: 3px;
+  width: 30px;
+  background: var(--primary);
+  margin-bottom: 2.5px;
+}
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: var(--primary);
+}
+form .gender-details .gender-title{
+  font-size: 16px;
+  font-weight: 500;
+}
+form .gender-details .category{
+  display: flex;
+  padding: 8px;
+  width: 80%;
+  margin: 14px 0;
+}
+input[type="radio"]{
+  display: none;
+}
+label{
+  position: relative;
+  font-size: 18px;
+  padding-right: 32px;
+  padding-left: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+label:nth-last-child(1){
+  padding-right: 0;
+}
+
+label::before{
+  content: "";
+  border: 0.2px solid var(--primary);
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: -8px 20px;
+  margin-left: 0;
+  border-radius: 50%;
+}
+label::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: rgba(96,16,56,0);
+  left: 5.97px;
+  top: 21.5px;
+  margin: -8px 20px;
+  margin-left: 0;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+input[type="radio"]:checked + label::after{
+  background: rgba(96,16,56,1);
+}
+
+form .button{
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--primary);
+}
+form .button input:hover{
+  border: 2px solid var(--primary);
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor: pointer;
+  background: white;
+  color: var(--primary);
+  transition: all 0.3s;
+}
+@media (max-width: 584px) {
+  .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .gender-details .catergory{
+    width: 100%;
+  }
+  form .gender-details .catergory label{
+    font-size: 10px;
+  }
+  .container form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 0;
+  }
+}
+
+
+
+/* vsdvbsdhvbsd */
