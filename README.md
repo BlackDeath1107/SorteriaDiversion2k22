@@ -63,18 +63,15 @@ N.B : These images are just the primary prototypes.It will be changed and update
 
 _**Index Page**_
 
-![index](https://user-images.githubusercontent.com/94730769/154827923-3e5c8cb9-eaac-4525-9fbb-7e7ba8b98ebe.PNG)
+![index](https://user-images.githubusercontent.com/94730769/155836272-8575d1ed-90f0-400a-8bdb-cdfe0f2f9980.PNG)
 
 _**Login Page**_
 
 ![signinpage](https://user-images.githubusercontent.com/94730769/154798761-b92ef9f6-a82d-4cf6-8317-2843c884e6a2.PNG)
 
-Sign up page
-![Screenshot (255)](https://user-images.githubusercontent.com/96746497/153259711-38af0b3e-2269-4e0e-8cb1-3b9f836fd035.png)
-![Screenshot (257)](https://user-images.githubusercontent.com/96746497/153259808-7e48567f-3dd9-4e31-a829-66ca7832a98b.png)
-![Screenshot (256)](https://user-images.githubusercontent.com/96746497/153259877-e3c71665-b08c-475f-932f-af0835cd7542.png)
+_**Registration Page**_
 
-
+![s-up-pg](https://user-images.githubusercontent.com/94730769/155841828-cd4e7c7e-fc5d-4218-8545-6573fff30e5f.PNG)
 
 ### Languages used for the front end
 
