@@ -34,6 +34,7 @@ Firebase Authentication to allow users to sign in to your app using one or more 
 Add and initialize the Authentication SDK in your app
 1.If you haven't already, install the Firebase JS SDK and initialize Firebase.
 2.Add the Firebase Authentication JS SDK and initialize Firebase Authentication:
+CODE:
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 // TODO: Replace the following with your app's Firebase project configuration
