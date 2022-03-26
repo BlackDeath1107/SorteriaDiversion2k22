@@ -70,7 +70,7 @@ If it's not included already, you need to add your Cloud Storage bucket URL to y
 4.To your firebaseConfig object in your app, add the storageBucket attribute with your bucket URL.
 Use multiple Cloud Storage buckets
 If you want to use a Cloud Storage bucket other than the default provided above, or use multiple Cloud Storage buckets in a single app, you can create an instance of firebase.storage that references your custom bucket.
-Shreya
+Shreya:
 Initialize the Realtime Database JavaScript SDK
 You must specify your Realtime Database URL when initializing the JavaScript SDK.
 
