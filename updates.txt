@@ -23,3 +23,51 @@ Nilanjan; Add Firebase Admin SDK to server:
     After you've completed the above steps, Application Default Credentials (ADC) is able to implicitly determine your credentials, allowing you to use service account credentials when testing or running in non-Google environments.
     Initialize the SDK as shown:
     default_app = firebase_admin.initialize_app()
+Anusmita:Access firebase in your App
+Firebase services (like Cloud Firestore, Authentication, Realtime Database, Remote Config, and more) are available to import within individual sub-packages.
+Use a module bundler (webpack/Rollup) for size reduction
+The Firebase Web SDK is designed to work with module bundlers to remove any unused code (tree-shaking). We strongly recommend using this approach for production apps. Tools such as the Angular CLI, Next.js, Vue CLI, or Create React App automatically handle module bundling for libraries installed through npm and imported into your codebase.
+Available Firebase services for web
+Now that you're setup to use Firebase, you can start adding and using any of the following available Firebase services in your web app.
+The following commands show how to import Firebase libraries installed locally with npm. For alternative import options, see the available libraries documentation.
+Firebase Authentication to allow users to sign in to your app using one or more sign-in methods, including email address and password sign-in, and federated identity providers such as Google Sign-in and Facebook Login. This tutorial gets you started with Firebase Authentication by showing you how to add email address and password sign-in to your app.
+Add and initialize the Authentication SDK in your app
+1.If you haven't already, install the Firebase JS SDK and initialize Firebase.
+2.Add the Firebase Authentication JS SDK and initialize Firebase Authentication:
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://firebase.google.com/docs/web/learn-more#config-object
+const firebaseConfig = {
+  // ...
+};
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+// Initialize Firebase Authentication and get a reference to the service
+const auth = getAuth(app);
+Sign up new users
+Create a form that allows new users to register with your app using their email address and a password. When a user completes the form, validate the email address and password provided by the user, then pass them to the createUserWithEmailAndPassword method.
+Sign in existing users
+Create a form that allows existing users to sign in using their email address and password. When a user completes the form, call the signInWithEmailAndPassword method:
+Set an authentication state observer and get user data
+For each of your app's pages that need information about the signed-in user, attach an observer to the global authentication object. This observer gets called whenever the user's sign-in state changes.
+Attach the observer using the onAuthStateChanged method. When a user successfully signs in, you can get information about the user in the observer.
+Getting started with Cloud Storage on Web
+Cloud Storage for Firebase lets you upload and share user generated content, such as images and video, which allows you to build rich media content into your apps. Your data is stored in a Google Cloud Storage bucket — an exabyte scale object storage solution with high availability and global redundancy. Cloud Storage for Firebase lets you securely upload these files directly from mobile devices and web browsers, handling spotty networks with ease.
+Create a default Cloud Storage bucket:
+From the navigation pane of the Firebase console, select Storage, then click Get started.
+Review the messaging about securing your Cloud Storage data using security rules. During development, consider setting up your rules for public access.
+Select a location for your default Cloud Storage bucket.
+This location setting is your project's default Google Cloud Platform (GCP) resource location. Note that this location will be used for GCP services in your project that require a location setting, specifically, your Cloud Firestore database and your App Engine app (which is required if you use Cloud Scheduler).
+If you aren't able to select a location, then your project already has a default GCP resource location. It was set either during project creation or when setting up another service that requires a location setting.
+If you're on the Blaze plan, you can create multiple buckets, each with its own location.
+Click done.
+Add your bucket URL to your app
+If it's not included already, you need to add your Cloud Storage bucket URL to your Firebase app's configuration object.
+1.Go to your Storage dashboard in the Firebase console.
+2.Click the Files tab, then look in the header of the file viewer.
+3.Copy the URL to your clipboard. It's usually in the form project-id.appspot.com.
+4.To your firebaseConfig object in your app, add the storageBucket attribute with your bucket URL.
+Use multiple Cloud Storage buckets
+If you want to use a Cloud Storage bucket other than the default provided above, or use multiple Cloud Storage buckets in a single app, you can create an instance of firebase.storage that references your custom bucket.
+
