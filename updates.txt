@@ -70,6 +70,35 @@ If it's not included already, you need to add your Cloud Storage bucket URL to y
 4.To your firebaseConfig object in your app, add the storageBucket attribute with your bucket URL.
 Use multiple Cloud Storage buckets
 If you want to use a Cloud Storage bucket other than the default provided above, or use multiple Cloud Storage buckets in a single app, you can create an instance of firebase.storage that references your custom bucket.
+Shreya
+Initialize the Realtime Database JavaScript SDK
+You must specify your Realtime Database URL when initializing the JavaScript SDK.
+
+You can find your Realtime Database URL in the Realtime Database section of the Firebase console. Depending on the location of the database, the database URL will be in one of the following forms:
+
+https://DATABASE_NAME.firebaseio.com (for databases in us-central1)
+https://DATABASE_NAME.REGION.firebasedatabase.app (for databases in all other locations)
+import { initializeApp } from 'firebase/app';
+import { getDatabase } from "firebase/database";
+
+// TODO: Replace with your app's Firebase project configuration
+const firebaseConfig = {
+  apiKey: "API_KEY",
+  authDomain: "PROJECT_ID.firebaseapp.com",
+  // The value of `databaseURL` depends on the location of the database
+  databaseURL: "https://DATABASE_NAME.firebaseio.com",
+  projectId: "PROJECT_ID",
+  storageBucket: "PROJECT_ID.appspot.com",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+  // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+  measurementId: "G-MEASUREMENT_ID",
+};
+
+const app = initializeApp(firebaseConfig);
+
+// Get a reference to the database service
+const database = getDatabase(app);
 Ankur: Using an OAuth 2.0 refresh token:
     OAuth 2.0 allows users to share specific data with an application while keeping their usernames, passwords, and other information private. For example, an application can use OAuth 2.0 to obtain permission from users to store files in their Google Drives.
     Initialize without parameters:
