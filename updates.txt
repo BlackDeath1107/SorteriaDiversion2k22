@@ -1,0 +1,25 @@
+Nilanjan; Add Firebase Admin SDK to server:
+    The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments to perform various actions like:
+      1.Read and write Realtime Database data with full admin privileges.
+      2.Programmatically send Firebase Cloud Messaging messages using a simple, alternative approach to the Firebase Cloud Messaging server protocols.
+      3.Generate and verify Firebase auth tokens.
+      4.Access Google Cloud resources like Cloud Storage buckets and Cloud Firestore databases associated with your Firebase projects.
+      5.Create your own simplified admin console to do things like look up user data or change a user's email address for authentication.
+    Prerequisites:
+    1.Make sure that you have a server app.
+    2.Make sure that your server runs the following depending on which Admin SDK that you use:
+        Admin Node.js SDK — Node.js 12+
+        Admin Java SDK — Java 7+ (recommend Java 8+)
+        Java 7 support is deprecated.
+        Admin Python SDK — Python 3.6+
+        Admin Go SDK — Go 1.11+
+        Admin .NET SDK — .NET Framework 4.5+ or .Net Core 1.5+
+    Set up a Firebase Project and add the SDK:
+      1.You must need a firebase project and a service account.
+      2.Then you need to install the SDK for the language of your choice.
+    Initialize the SDK:
+      1.To initialise The SDK you must authenticate the service account by generating a private key in JSON format. Store the private key securely after generating it.
+      2.While authenticating the service account you can either set the GOOGLE_APPLICATION_CREDENTIAL as environment variables or you can directly pass the path to the service account key in the code.
+    After you've completed the above steps, Application Default Credentials (ADC) is able to implicitly determine your credentials, allowing you to use service account credentials when testing or running in non-Google environments.
+    Initialize the SDK as shown:
+    default_app = firebase_admin.initialize_app()
