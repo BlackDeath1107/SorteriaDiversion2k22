@@ -71,3 +71,15 @@ If it's not included already, you need to add your Cloud Storage bucket URL to y
 4.To your firebaseConfig object in your app, add the storageBucket attribute with your bucket URL.
 Use multiple Cloud Storage buckets
 If you want to use a Cloud Storage bucket other than the default provided above, or use multiple Cloud Storage buckets in a single app, you can create an instance of firebase.storage that references your custom bucket.
+Ankur: Using an OAuth 2.0 refresh token:
+    OAuth 2.0 allows users to share specific data with an application while keeping their usernames, passwords, and other information private. For example, an application can use OAuth 2.0 to obtain permission from users to store files in their Google Drives.
+    Initialize without parameters:
+    The SDK can also be initialized with no parameters. In this case, the SDK uses Google Application Default Credentials. Because default credentials lookup is fully automated in Google environments, with no need to supply environment variables or other configuration, this way of intializing the SDK is strongly recommeneded for applications running on Compute Engine, Kubernetes Engine, App Engine, and Cloud Functions.
+    Initialize multiple apps:
+    In most cases, you only have to initialize a single, default app. Some use cases require you to create multiple apps at the same time. For example, you might want to read data from the Realtime Database of one Firebase project and mint custom tokens for another project. Or you might want to authenticate two apps with separate credentials. The Firebase SDK allows you create multiple apps at the same time, each with their own configuration information.
+    When you create a Firebase project in the Firebase Console, we give you a configuration object that you pass to the initializeApp function. This function returns a Firebase App instance. This instance is how the Firebase SDK how to connect to your specific Firebase backend.
+    Set scopes for Realtime Database and Authentication:
+    Realtime syncing makes it easy for your users to access their data from any device: web or mobile, and it helps your users collaborate with one another. If you're using a Google Compute Engine VM with Google Application Default Credentials for Realtime Database or Authentication, make sure to also set the right access scopes. Realtime Database ships with mobile and web SDKs so you can build apps without the need of servers. You can also execute backend code that responds to events triggered by your database using Cloud Functions for Firebase.
+    To explicitly specify the project ID:
+    app_options = {'projectId': '<FIREBASE_PROJECT_ID>'}
+    default_app = firebase_admin.initialize_app(options=app_options)
