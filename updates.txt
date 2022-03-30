@@ -1,4 +1,7 @@
+
 Nilanjan: Add Firebase Admin SDK to server:
+
+ 
     The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments to perform various actions like:
       1.Read and write Realtime Database data with full admin privileges.
       2.Programmatically send Firebase Cloud Messaging messages using a simple, alternative approach to the Firebase Cloud Messaging server protocols.
@@ -34,7 +37,7 @@ Firebase Authentication to allow users to sign in to your app using one or more 
 Add and initialize the Authentication SDK in your app
 1.If you haven't already, install the Firebase JS SDK and initialize Firebase.
 2.Add the Firebase Authentication JS SDK and initialize Firebase Authentication:
-CODE:
+
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 // TODO: Replace the following with your app's Firebase project configuration
@@ -71,7 +74,7 @@ If it's not included already, you need to add your Cloud Storage bucket URL to y
 4.To your firebaseConfig object in your app, add the storageBucket attribute with your bucket URL.
 Use multiple Cloud Storage buckets
 If you want to use a Cloud Storage bucket other than the default provided above, or use multiple Cloud Storage buckets in a single app, you can create an instance of firebase.storage that references your custom bucket.
-Shreya
+Shreya:
 Initialize the Realtime Database JavaScript SDK
 You must specify your Realtime Database URL when initializing the JavaScript SDK.
 
